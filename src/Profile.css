@@ -1,0 +1,51 @@
+.profile-card {
+    background:linear-gradient(235deg, #E3E3E3 0%,#939292 50%, #5b5b5b 100%);
+    border-radius: 20px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgba(77, 77, 77, 0.654);
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 1;
+    width: 300px;
+    height: 562px;
+    color: black;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+  }
+  
+  .profile-text {
+    font-size: 30px;
+    margin-bottom: 2rem;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-end;
+    gap: 1rem;
+    height: 100%; 
+  }
+  
+  .social-icon {
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #666;
+  }
+
+  .links{
+    color: black;
+    text-decoration: none;
+  }
+
+  

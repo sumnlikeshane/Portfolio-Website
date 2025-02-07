@@ -1,0 +1,62 @@
+.links-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 2rem 0;
+  width: 400px;
+}
+
+.link-card {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+  padding: 2rem;
+  border-radius: 15px;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1;
+}
+
+.link-card:hover {
+  transform: translateY(-5px);
+}
+
+.github {
+  background: linear-gradient(235deg, #FFB223 0%, #ca8f23 57%, #A96801 100%);
+  border: 2px solid #FDC763;
+  align-content: flex-start;
+}
+
+.github-icon {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  height: 80px;
+  width: 80px;
+}
+
+.leetcode {
+  background: linear-gradient(235deg, #57c478 0%, #2d7d41 57%, #2b6323 100%);
+  border: 2px solid #51ae83;
+  align-content: flex-start;
+}
+
+.leetcode-icon {
+  position: absolute;
+  height: 80px;
+  width: 150px;
+}
+
+.link-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  text-align: right;
+  padding-top: 4rem;
+}
