@@ -1,51 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 .profile-card {
-    background:linear-gradient(235deg, #E3E3E3 0%,#939292 50%, #5b5b5b 100%);
-    border-radius: 20px;
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    border: 3px solid rgba(77, 77, 77, 0.654);
-    position: relative;
-    overflow: hidden;
-    aspect-ratio: 1;
-    width: 300px;
-    height: 562px;
-    color: black;
-  }
-  
-  .profile-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 1.5rem;
-  }
-  
-  .profile-text {
-    font-size: 30px;
-    margin-bottom: 2rem;
-  }
-  
-  .social-links {
-    display: flex;
-    justify-content: center; 
-    align-items: flex-end;
-    gap: 1rem;
-    height: 100%; 
-  }
-  
-  .social-icon {
-    cursor: pointer;
-    transition: color 0.3s ease;
-  }
-  
-  .social-icon:hover {
-    color: #666;
-  }
+  background: linear-gradient(135deg, #2A2A2A 0%, #555 50%, #1E1E1E 100%);
+  border-radius: 20px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1;
+  width: 320px;
+  height: 560px;
+  color: rgb(203, 203, 203);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-  .links{
-    color: black;
-    text-decoration: none;
-  }
 
-  
+
+.profile-image {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin-top:60px ;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+  border: 5px solid rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.profile-image:hover {
+  transform: scale(1.1);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.profile-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(233, 233, 233);
+  letter-spacing: 1px;
+  margin-bottom: 1.2rem;
+  padding: 0 1rem;
+  line-height: 1.5;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center; 
+  gap: 1rem;
+  margin-top: auto;
+}
+
+.social-icon {
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+  color: white;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+  color: #ffcc00;
+}
+
+.links {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.links:hover {
+  background: rgba(255, 255, 255, 0.4);
+  transform: scale(1.05);
+}

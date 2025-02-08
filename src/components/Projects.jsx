@@ -5,9 +5,9 @@ const Projects = () => {
   const projects = [
     {
       title: 'Music Visualized',
-      description: 'Volume and Pitch controld through CV',
-      image: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=300&h=300&fit=crop',
-      link:''
+      description: 'Volume control through CV',
+      image: '/music.png',
+      link:'https://github.com/sumnlikeshane/Music-Visualizer.git'
     },
     {
       title: 'Anime Database',

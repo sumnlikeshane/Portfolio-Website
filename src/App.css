@@ -5,7 +5,6 @@
   
 }
 
-
 .app {
     background-color: #1a1a1a;
     min-height: 100vh;
@@ -32,12 +31,12 @@
     overflow-y: auto;
     max-height: calc(100vh - 4rem);
     padding-right: 1rem;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;  
   }
   
   .right-section::-webkit-scrollbar {
-    display: none;  /* Chrome, Safari and Opera */
+    display: none; 
   }
   
   .name-section h1 {
